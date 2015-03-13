@@ -1,0 +1,50 @@
+{
+	"currency": "USD",
+	"results": [
+		{
+			"itineraries": [
+				{
+					"outbound": {
+						"flights": [
+							{
+								"departs_at": "2015-03-24T06:00",
+								"origin": {
+									"airport": "SDF"
+								},
+								"operating_airline": "DL",
+								"flight_number": "2099",
+								"booking_info": {
+									"booking_code": "T",
+									"seats_remaining": 9
+								}
+							}, {
+								"departs_at": "2015-03-24T08:27",
+								"origin": {
+									"airport": "ATL",
+									"terminal": "S"
+								},
+								"operating_airline": "DL",
+								"flight_number": "5075",
+								"booking_info": {
+									"booking_code": "T",
+									"seats_remaining": 9
+								}
+							}
+						]
+					}
+				}
+			],
+			"fare": {
+				"total_price": "282.20",
+				"price_per_adult": {
+					"total_fare": "282.20",
+					"tax": "61.74"
+				},
+				"restrictions": {
+					"refundable": false,
+					"change_penalties": true
+				}
+			}
+		}
+	]
+}

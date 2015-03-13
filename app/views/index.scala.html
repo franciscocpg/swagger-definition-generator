@@ -1,0 +1,20 @@
+@(message: String)
+
+@main("Swagger Definition Generator") {
+	
+	<h2>@message</h2>
+
+    <form method="POST" action="/generate">
+    	<p>
+    		<label for="rootNodeName">Response Name</label> <input type="text" id="rootNodeName" name="rootNodeName" placeholder="response_name" />
+   		</p>
+   		<p>
+    		<label for="inputJSON">Input JSON</label><br />
+	    	<textarea  rows="40" cols="72" id="inputJSON" name="inputJSON"></textarea>
+   		</p> 
+    	<p>
+			<input type="submit" value="Submit" />
+		</p>
+	</form>
+
+}
